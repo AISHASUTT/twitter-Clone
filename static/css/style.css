@@ -23,6 +23,13 @@ Post
     padding: 20px 40px
     border-bottom 1px solid #ccc;
 }
+.header {
+    display: flex;
+    gap: 6%;
+    margin-bottom: 13px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
 
 .post_form input {
     width: 70%;
@@ -67,7 +74,7 @@ Post
     border-radius: 3px;
 }
 
-.posts li. menu a {
+.posts li.menu a {
     text-decoration: none;
 }
 
@@ -90,9 +97,17 @@ Post
 .posts li .name_body .datetime{
     color: gray;
 }
-
+img #post-img{
+width: 25vw;
+margin-left: 5vw;
+}
 @media screen and (max-width: 500px) {
     .posts li .name_body .name {
         font-size: 20px;
     }
+}
+
+form{
+    text-align: center;
+    border-bottom: 1px solid #ccc;
 }
